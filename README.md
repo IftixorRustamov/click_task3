@@ -78,7 +78,7 @@ app/src/main/java/com/example/click_task3/
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/IftixorRustamov/click_task3
    ```
 
 2. **Open in Android Studio**
