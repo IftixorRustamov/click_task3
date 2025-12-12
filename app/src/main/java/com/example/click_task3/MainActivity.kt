@@ -11,9 +11,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.click_task3.presentation.Screen
 import com.example.click_task3.presentation.addtodo.AddTodoScreen
 import com.example.click_task3.presentation.todolist.TodoListScreen
-import com.example.click_task3.ui.theme.click_task3Theme
+import com.example.click_task3.ui.ClickTask3Theme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            click_task3Theme {
+            ClickTask3Theme() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

@@ -1,4 +1,4 @@
-package com.example.click_task3.ui.theme
+package com.example.click_task3.ui
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -47,7 +47,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun TodoAppTheme(
+fun ClickTask3Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
@@ -58,7 +58,8 @@ fun TodoAppTheme(
         SideEffect {
             val window = (view.context as Activity).window
             window.statusBarColor = colorScheme.background.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = !darkTheme
+            WindowCompat.getInsetsController(window, view)
+                .isAppearanceLightStatusBars = !darkTheme
         }
     }
 
