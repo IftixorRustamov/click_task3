@@ -177,20 +177,10 @@ fun `adding todo updates state`() = runTest {
 
 ---
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file
-
----
-
 ## 📞 Contact
 
-**Developer**: [Your Name]  
-**Email**: your.email@example.com  
-**GitHub**: [@yourusername](https://github.com/yourusername)
+**Developer**: Rustamov Iftikhor  
+**Email**: iftixorrustamovv@gmail.com  
+**Telegram**: @im_iftikhor
 
 ---
-
-<div align="center">
-  <p>Made with ❤️ using Kotlin & Jetpack Compose</p>
-</div>
